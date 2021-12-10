@@ -25,6 +25,9 @@ You might be using a version of `react-dom` (< 16.8.0) or `react-native` (< 0.59
 You can only call Hooks **while React is rendering a function component**:
 
 * ✅ Call them at the top level in the body of a function component.
+```js
+React.createElement(Function,props,children)
+```
 * ✅ Call them at the top level in the body of a [custom Hook](/docs/hooks-custom.html).
 
 **Learn more about this in the [Rules of Hooks](/docs/hooks-rules.html).**
